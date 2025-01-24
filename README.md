@@ -14,5 +14,6 @@ HelloWorldしてみました
 まだ日本語の情報が揃っていないため英語のマニュアルに沿って  
 HelloWorldというだけのやつです
 
-
+## 説明記事はこちら
+https://zenn.dev/hellohazime/articles/dify_plugin_hellowold
 
