@@ -1,0 +1,19 @@
+identity:
+  author: hellohazime
+  name: helloworld
+  label:
+    en_US: helloworld
+    zh_Hans: helloworld
+    pt_BR: helloworld
+    ja_JP: はろー
+  description:
+    en_US: hello dify plugin
+    zh_Hans: hello dify plugin
+    pt_BR: hello dify plugin
+    ja_JP: はろー dify plugin
+  icon: icon.svg
+tools:
+  - tools/helloworld.yaml
+extra:
+  python:
+    source: provider/helloworld.py

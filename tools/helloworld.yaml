@@ -1,0 +1,34 @@
+identity:
+  name: helloworld
+  author: hellohazime
+  label:
+    en_US: helloworld
+    zh_Hans: helloworld
+    pt_BR: helloworld
+    ja_JP: はろー
+description:
+  human:
+    en_US: hello dify plugin
+    zh_Hans: hello dify plugin
+    pt_BR: hello dify plugin
+    ja_JP: はろー dify plugin
+  llm: hello dify plugin
+parameters:
+  - name: query
+    type: string
+    required: true
+    label:
+      en_US: Query string
+      zh_Hans: 查询语句
+      pt_BR: Query string
+      ja_JP: クエリ文字列
+    human_description:
+      en_US: hello dify plugin
+      zh_Hans: hello dify plugin
+      pt_BR: hello dify plugin
+      ja_JP: はろー dify plugin
+    llm_description: hello dify plugin
+    form: llm
+extra:
+  python:
+    source: tools/helloworld.py
